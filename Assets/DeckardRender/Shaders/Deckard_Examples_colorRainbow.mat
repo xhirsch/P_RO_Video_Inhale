@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Deckard_Examples_colorRainbow
+  m_Shader: {fileID: 4800000, guid: f3251ee5ef5848d42a485ba0031a9dd0, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: []
+    m_Floats:
+    - _Intensity: 1.15
+    - _Metallic: 0.81
+    - _Smoothness: 0.37
+    - __dirty: 0
+    m_Colors:
+    - _PointOneDistance: {r: 0.15, g: 1.61, b: -2.78, a: 0}

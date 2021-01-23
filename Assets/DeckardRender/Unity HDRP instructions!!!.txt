@@ -1,0 +1,22 @@
+If you are planing to use Deckard with 2019.1 Unity version of HDRP you have to follow 
+this instructions: 
+-Important: Don't install DeckardPPS_HDRP_2018 package!! This is only to be used with Unity 2018 and PPS v2!!
+-Add a Deckard component to your camera as usual.
+-Deckard will prompt to Switch camera to Deferred HDR rendering. Instead click on "Don't switch, I'm using HDRP" button. 
+-In Unity go to Main Menu/Window/Deckard View. This will open a new preview window for Deckard and it will have a same resolution as your Game View, but there you can preview what Deckard renders. 
+-Use Deckard and have some fun. 
+
+
+Known Issues: 
+-Unity HDRP supports only one single directional light. Due to this limitation, you shouldn't use Deckard Ambient Outdoor light in
+combination with another directional Light. 
+-Some combinations of Unity and HDRP can produce a memory leak when a directional light gets moved while in play mode. This bug affects Unity, 
+and having it with Deckard will eat all available memory much sooner - producing a system crash.
+If you experience this issue, be sure not to use Dekcard Soft Light on diurectional lights, and be sure not to move Directional lights.Best way would be to
+try different combinations of Unity and HDRP and see what version doesn't produce this bug. 
+-Unity HDRP raytrace works with Deckard, but with some limitaions - Raytracing requires much VRAM, and you might not be able to render 
+at larger resolutions with Deckard. 720p is known to work well on RTX2080 that has only 8GB of VRAM. RTX2080TI with 11gb of memory (or better) is recomended
+when using raytrace. 
+
+p.s. At this moment some Deckard post processing features are unavailable with HDRP. You can compensate for those features by Using built in HDRP image effects. 
+p.s.s. Deckard Demo scenes doesn't work with HDRP. 

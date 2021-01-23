@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: LAB
+  m_Shader: {fileID: 4800000, guid: 95508cdb22cc5d14cbbb39b97543edec, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Texture0:
+        m_Texture: {fileID: 2800000, guid: d68b43831db691a4f9ae925588838ebf, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample1:
+        m_Texture: {fileID: 2800000, guid: c26acf27d9382534d9a58bd79aaa14e3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample2:
+        m_Texture: {fileID: 2800000, guid: c93579a4742816c45a467d1da98464cc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample4:
+        m_Texture: {fileID: 2800000, guid: c26acf27d9382534d9a58bd79aaa14e3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Contrast: 1.06
+    - _Float0: 0.883
+    - _Float1: -0.06
+    - _Float2: 0.048
+    - _Float3: 0.249
+    - _Float4: 0.26
+    - _Float5: 0.02
+    - _Float6: 0.88
+    - _GlossyReflections: 1
+    - _Height: -0.17
+    - _NoiseAmount: 0.1
+    - _NoiseScale: 0.29
+    - _OffsetNoise: 13.6
+    - _SpecularHighlights: 1
+    - _TessPhongStrength: 0.5
+    - _TransAmbient: 0.284
+    - _TransDirect: 0.474
+    - _TransNormalDistortion: 0.401
+    - _TransScattering: 15.6
+    - _TransShadow: 1
+    - _Translucency: 38.1
+    - __dirty: 0
+    m_Colors:
+    - _Color0: {r: 0.017933436, g: 0.2924521, b: 0.14260042, a: 0}
+    - _Vector0: {r: 1, g: 1, b: 1, a: 0}

@@ -1,0 +1,2 @@
+Be sure to read again ReadMe.pdf file. It contains new workflow description. 
+Deckard doesn't use anymore Game View for it's preview. Instead, it uses new preview windows (with multiple screen support) that enhances it's performance and responsivness in Unity Editor. 

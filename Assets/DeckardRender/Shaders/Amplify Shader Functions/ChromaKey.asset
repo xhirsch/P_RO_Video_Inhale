@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78b2425a2284af743826c689403a4924, type: 3}
+  m_Name: ChromaKey
+  m_EditorClassIdentifier: 
+  m_functionInfo: "// Made with Amplify Shader Editor\n// Available at the Unity Asset
+    Store - http://u3d.as/y3X \n/*ASEBEGIN\nVersion=16204\n1004;457;1365;843;2108.395;983.5516;2.210611;True;True\nNode;AmplifyShaderEditor.FunctionInput;9;-1317.07,-190.4659;Float;False;ColorKey;5;0;False;1;0;COLOR;0.03448272,1,0,0;False;1;COLOR;0\nNode;AmplifyShaderEditor.LengthOpNode;3;-628.8672,-185.4934;Float;False;1;0;COLOR;0,0,0,0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.AbsOpNode;4;-468.8673,-185.4934;Float;False;1;0;FLOAT;0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.SimpleSubtractOpNode;8;-660.1384,126.8778;Float;False;2;0;FLOAT;1;False;1;FLOAT;0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.FunctionInput;10;-1347.46,-56.72289;Float;False;ImageInput;5;1;False;1;0;COLOR;0,0,0,0;False;1;COLOR;0\nNode;AmplifyShaderEditor.SmoothstepOpNode;5;-116.8672,-153.4934;Float;False;3;0;FLOAT;0;False;1;FLOAT;0;False;2;FLOAT;1;False;1;FLOAT;0\nNode;AmplifyShaderEditor.SimpleSubtractOpNode;1;-1012.867,-185.4934;Float;False;2;0;COLOR;0,0,0,0;False;1;COLOR;0,0,0,0;False;1;COLOR;0\nNode;AmplifyShaderEditor.AbsOpNode;2;-820.8673,-185.4934;Float;False;1;0;COLOR;0,0,0,0;False;1;COLOR;0\nNode;AmplifyShaderEditor.SimpleMultiplyOpNode;6;-516.6437,-23.33713;Float;False;2;2;0;FLOAT;0;False;1;FLOAT;0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.SimpleAddOpNode;7;-759.0338,-66.56608;Float;False;2;2;0;FLOAT;0;False;1;FLOAT;0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.FunctionInput;11;-1026.477,-1.314866;Float;False;Threshold;1;2;False;1;0;FLOAT;0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.FunctionInput;12;-1045.583,141.981;Float;False;ThresholdVariation;1;3;False;1;0;FLOAT;0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.FunctionInput;13;-940.4995,269.9919;Float;False;Slope;1;4;False;1;0;FLOAT;0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.FunctionOutput;0;142,-115;Float;False;True;Output;0;False;1;0;FLOAT;0;False;1;FLOAT;0\nWireConnection;3;0;2;0\nWireConnection;4;0;3;0\nWireConnection;8;1;13;0\nWireConnection;5;0;4;0\nWireConnection;5;1;6;0\nWireConnection;5;2;7;0\nWireConnection;1;0;9;0\nWireConnection;1;1;10;0\nWireConnection;2;0;1;0\nWireConnection;6;0;7;0\nWireConnection;6;1;8;0\nWireConnection;7;0;11;0\nWireConnection;7;1;12;0\nWireConnection;0;0;5;0\nASEEND*/\n//CHKSM=31761190F40B5587836044ADEB04A852A9658834"
+  m_functionName: 
+  m_description: 
+  m_additionalIncludes:
+    m_additionalIncludes: []
+    m_outsideIncludes: []
+  m_additionalPragmas:
+    m_additionalPragmas: []
+    m_outsidePragmas: []
+  m_additionalDirectives:
+    m_validData: 0
+    m_isDirty: 0
+    m_moduleName: ' Additional Directives'
+    m_independentModule: 1
+    m_additionalDirectives: []
+    m_shaderFunctionDirectives: []
+    m_nativeDirectives: []
+    m_nativeDirectivesFoldout: 0
+    m_directivesSaveItems: []
+  m_nodeCategory: 0
+  m_customNodeCategory: Deckard
+  m_previewPosition: 0
+  m_hidden: 0
